@@ -71,14 +71,21 @@ footer {
     background-color: brown ;
   }
 
+  /* Note: changed the width to 100% just for this specific element for Tablets */
   #column-3 {
     background-color: burlywood ;
+    width: 100%;
   }
 
   footer {
     background-color: blue ;
   }
-  
+
+  /* Change the Tablet columns to half-width instead of 100% */
+  /* This is for all (i.e. multiple) elements with an attribute class="col-3" */
+.col-3 {
+    width: 50%;
+  }
 }
 
 
@@ -96,12 +103,19 @@ footer {
     background-color: crimson ;
   }
 
+  /* Note: changed the width to one third width just for this specific element for Desktops */
   #column-3 {
     background-color: darkolivegreen ;
+    width: 33.33%;
   }
 
   footer {
     background-color: deepskyblue ;
   }
-   
+
+  /* Change the Desktop columns to one third width instead of 100% */
+  /* This is for all (i.e. multiple) elements with an attribute class="col-3" */
+  .col-3 {
+    width: 33.3%;
+  }
 }
